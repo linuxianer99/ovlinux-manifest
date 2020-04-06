@@ -8,6 +8,7 @@
   <remote name="oe" fetch="git://git.openembedded.org" />
   <remote name="sunxi" fetch="git://github.com/linux-sunxi" />
   <remote name="ov" fetch="git://github.com/Openvario" />
+  <remote name="ovbuild" fetch="git://github.com/linuxianer99" />
 
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
@@ -19,5 +20,6 @@
   <project name="meta-openembedded" revision="refs/heads/warrior"  remote="oe" path="poky/meta-openembedded" />
   <project name="meta-sunxi" revision="refs/heads/warrior"  remote="sunxi" path="poky/meta-sunxi" />
   <project name="meta-openvario" revision="refs/heads/warrior"  remote="ov" path="poky/meta-openvario" />
+  <project name="ov-buildscripts" revision="refs/heads/warrior" remote="ovbuild" path="." />
   
 </manifest>
